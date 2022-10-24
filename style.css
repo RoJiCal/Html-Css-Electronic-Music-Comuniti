@@ -330,6 +330,7 @@ grid-template-rows: repeat(auto)
 /* Card */
 
 .card {
+  z-index: -1;
   position: relative;
   width: 300px;
   height: 350px;
