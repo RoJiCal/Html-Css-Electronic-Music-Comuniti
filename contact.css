@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: black;
+  
+  }
+  
+  h1{
+    font-size: 70px;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 40px #ffffff;
+    margin:0;
+  }
+  
+  /* DROPDOWN NAVIGATION */
+  
+  
+  nav {
+    width: 100%;
+    display: flex;
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #000000;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  ul.submenu {
+    padding-left:0;
+  }
+  
+  ul.submenu li a {
+    color:#ffffff;
+  }
+  
+  
+  li {
+    color: rgb(3, 3, 3);
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+  }
+  
+  li a {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+  }
+  
+  li:hover > a {
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 40px #ffffff;
+  }
+  
+  li:hover {
+    
+    background: #000000;
+    cursor: pointer;
+  
+  }
+  
+  
+  ul li ul {
+    background: #000000;
+    min-width: 200px;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  ul.submenu{
+    min-width: 100px;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    display: block;
+  
+  }
+  
+  ul li ul li {
+    width: 100%;
+  }
+
+  /* Footer */
+
+footer{
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:#000;
+    border: 20px solid #000;
+  }
+  
+  span{
+    text-shadow: 0 0 10px #000000,
+    0 0 20px #000000,
+    0 0 40px #000000;
+  }
+  
+  .bi{
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    color: black;
+    text-shadow: 0 0 10px #000000,
+    0 0 20px #000000,
+    0 0 40px #000000;
+  }
+
+
+  form{
+	width:400px;
+	padding:16px;
+	border-radius:40px;
+	margin:auto;
+	background-color: rgb(255, 255, 255);
+}
+
+form label{
+	font-weight:bold;
+	display:inline-block;
+    color:#ffffff;
+    background-color: #000;
+}
+
+form input[type="text"],
+
+h1{font-family: fantasy;
+    text-align: center;}
+
+    div{text-align: center;}
+    p{
+      
+      text-align: center;
+        display: inline-block;
+        background-color: rgb(255, 255, 255);
+      dis}
+
+.titulo{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        text-shadow: 0 0 10px #070707,
+        0 0 20px #000000,
+        0 0 40px #000000;
+        margin:0;
+        border: 10px solid #000;
+      
+      }
